@@ -35,7 +35,7 @@ export default function Hero() {
       </div>
 
       {/* ── Full-width photo + A-grafik overlay ── */}
-      <div className="relative w-full overflow-hidden block" style={{ height: 'clamp(420px, 55vw, 960px)' }}>
+      <div className="relative w-full overflow-hidden block -mb-2" style={{ height: 'clamp(420px, 55vw, 960px)' }}>
         <img
           src="/images/hero-main.jpg"
           alt="A-Plast"
