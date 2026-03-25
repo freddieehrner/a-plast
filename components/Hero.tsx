@@ -47,7 +47,7 @@ export default function Hero() {
           alt=""
           aria-hidden="true"
           className="absolute bottom-0 right-0 pointer-events-none select-none"
-          style={{ height: '85%', width: 'auto', opacity: 0.55 }}
+          style={{ height: '85%', width: 'auto' }}
         />
       </div>
     </section>
