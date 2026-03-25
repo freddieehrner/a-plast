@@ -9,13 +9,43 @@
   --color-aplast-green-pale: #e1fff0;
 }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   background: white;
   color: #1a1a1a;
+}
+
+/* ── Hero fade-up (on load, staggered) ─────────────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+
+.hero-fade-1 { animation: fadeUp 0.8s ease both; animation-delay: 0.15s; }
+.hero-fade-2 { animation: fadeUp 0.8s ease both; animation-delay: 0.35s; }
+.hero-fade-3 { animation: fadeUp 0.8s ease both; animation-delay: 0.52s; }
+
+/* ── Scroll-triggered fade-up ───────────────────────────────────── */
+.fade-up {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.fade-up.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Card/image hover ───────────────────────────────────────────── */
+.img-zoom {
+  overflow: hidden;
+}
+.img-zoom img {
+  transition: transform 0.6s ease;
+}
+.img-zoom:hover img {
+  transform: scale(1.04);
 }
