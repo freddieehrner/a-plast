@@ -9,13 +9,13 @@ const links = [
 export default function Nav() {
   return (
     <nav
-      className="w-full flex items-center justify-between px-10 py-5 bg-white border-b border-gray-100"
+      className="w-full flex items-center justify-between px-8 py-4 bg-white border-b border-gray-100"
       style={{ fontFamily: 'Inter, sans-serif' }}
     >
       <img
         src="/images/a-plast-logo.svg"
         alt="A-Plast"
-        style={{ height: 42, width: 'auto' }}
+        style={{ height: 34, width: 'auto' }}
       />
       <ul className="hidden md:flex items-center gap-8">
         {links.map((link) => (
@@ -23,7 +23,7 @@ export default function Nav() {
             <a
               href="#"
               className="text-[#0062ae] font-semibold hover:underline transition-colors"
-              style={{ fontSize: 18 }}
+              style={{ fontSize: 14 }}
             >
               {link}
             </a>

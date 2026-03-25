@@ -10,7 +10,7 @@ const branscher = [
 
 export default function Branscher() {
   return (
-    <section className="bg-white py-24 px-10 md:px-[6.5vw] max-w-[1728px] mx-auto">
+    <section className="bg-[#b3ecff] py-24 px-10 md:px-[6.5vw] max-w-[1728px] mx-auto">
       <FadeUp>
         <h2
           className="text-[#0062ae] font-semibold"
@@ -42,7 +42,7 @@ export default function Branscher() {
         </p>
       </FadeUp>
 
-      <div className="flex flex-wrap gap-14 md:gap-24">
+      <div className="flex justify-between w-full">
         {branscher.map(({ label, icon }, i) => (
           <FadeUp key={label} delay={i * 80}>
             <div className="flex flex-col items-center gap-4">

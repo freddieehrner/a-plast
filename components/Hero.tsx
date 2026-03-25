@@ -4,7 +4,7 @@ export default function Hero() {
     <section>
       {/* ── Text row ── */}
       <div className="bg-white px-10 md:px-[6.5vw] pt-16 pb-12 max-w-[1728px] mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-end">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           <h1
             className="hero-fade-1 text-[#0062ae] font-semibold leading-tight"
             style={{
@@ -46,7 +46,7 @@ export default function Hero() {
           src="/images/aplast-grafik.svg"
           alt=""
           aria-hidden="true"
-          className="absolute bottom-0 left-0 pointer-events-none select-none"
+          className="absolute bottom-0 right-0 pointer-events-none select-none"
           style={{ height: '85%', width: 'auto', opacity: 0.55 }}
         />
       </div>
