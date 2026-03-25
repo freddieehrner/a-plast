@@ -9,7 +9,7 @@ const links = [
 export default function Nav() {
   return (
     <nav
-      className="w-full flex items-center justify-between px-8 py-4 bg-[#b3ecff] border-b border-[#9de0f5]"
+      className="w-full flex items-center justify-between px-8 py-4 bg-[#b3ecff]"
       style={{ fontFamily: 'Inter, sans-serif' }}
     >
       <img
