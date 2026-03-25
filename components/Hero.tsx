@@ -25,7 +25,7 @@ export default function Hero() {
             </p>
             <a
               href="#"
-              className="hero-fade-3 inline-flex items-center justify-center bg-[#0062ae] text-[#b3ecff] font-medium rounded-full hover:bg-[#00518f] transition-colors"
+              className="hero-fade-3 self-start flex items-center justify-center bg-[#0062ae] text-[#b3ecff] font-medium rounded-full hover:bg-[#00518f] transition-colors whitespace-nowrap"
               style={{ fontFamily: 'Inter, sans-serif', fontSize: 20, padding: '0.9rem 2.5rem' }}
             >
               Vårt uppdrag &amp; vision
