@@ -2,7 +2,7 @@ import FadeUp from './FadeUp';
 
 export default function Siffror() {
   return (
-    <section className="bg-white py-24 px-10 md:px-[6.5vw]">
+    <section className="bg-[#b3ecff] py-24 px-10 md:px-[6.5vw]">
       <div className="max-w-[1728px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
 
