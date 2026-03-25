@@ -1,11 +1,11 @@
 import FadeUp from './FadeUp';
 
 const branscher = [
-  { label: 'Bygg',         icon: '/images/icon-bygg.jpg' },
-  { label: 'Industri',     icon: '/images/icon-industri.jpg' },
-  { label: 'VVS',          icon: '/images/icon-vvs.jpg' },
-  { label: 'Fordon',       icon: '/images/icon-fordon.jpg' },
-  { label: 'Infrastruktur',icon: '/images/icon-infra.jpg' },
+  { label: 'Bygg',         icon: '/images/icon-bygg.svg' },
+  { label: 'Industri',     icon: '/images/icon-industri.svg' },
+  { label: 'VVS',          icon: '/images/icon-vvs.svg' },
+  { label: 'Fordon',       icon: '/images/icon-fordon.svg' },
+  { label: 'Infrastruktur',icon: '/images/icon-infra.svg' },
 ];
 
 export default function Branscher() {
@@ -16,7 +16,6 @@ export default function Branscher() {
           className="text-[#0062ae] font-semibold"
           style={{
             fontFamily: 'Inter, sans-serif',
-            /* 80px @ 1728px = 4.63vw */
             fontSize: 'clamp(2rem, 4.63vw, 80px)',
             lineHeight: 1.1,
             maxWidth: 1002,
@@ -37,25 +36,28 @@ export default function Branscher() {
             marginBottom: '4rem',
           }}
         >
-          Genom vår bredd, överkapacitet och tekniska spetskompetens kan vi möta
-          dessa krav oavsett bransch eller tillämpning. Vi arbetar nära våra
-          kunder för att förstå deras utmaningar och mål, med ambitionen att vara
-          en långsiktig och värdeskapande samarbetspartner.
+          Genom vår bredd, överkapacitet och tekniska spetskompetens kan vi möta dessa krav
+          oavsett bransch eller tillämpning. Vi arbetar nära våra kunder för att förstå deras
+          utmaningar och mål, med ambitionen att vara en långsiktig och värdeskapande samarbetspartner.
         </p>
       </FadeUp>
 
-      <div className="flex flex-wrap gap-12 md:gap-20">
+      <div className="flex flex-wrap gap-14 md:gap-24">
         {branscher.map(({ label, icon }, i) => (
-          <FadeUp key={label} delay={i * 80} className="flex flex-col items-center gap-3">
-            <div className="w-24 h-24 flex items-center justify-center overflow-hidden">
-              <img src={icon} alt={label} className="w-full h-full object-contain" />
+          <FadeUp key={label} delay={i * 80}>
+            <div className="flex flex-col items-center gap-4">
+              <img
+                src={icon}
+                alt={label}
+                style={{ width: 85, height: 85, objectFit: 'contain' }}
+              />
+              <span
+                className="text-[#0062ae] font-medium"
+                style={{ fontFamily: 'Inter, sans-serif', fontSize: 28 }}
+              >
+                {label}
+              </span>
             </div>
-            <span
-              className="text-[#0062ae] font-medium"
-              style={{ fontFamily: 'Inter, sans-serif', fontSize: 28 }}
-            >
-              {label}
-            </span>
           </FadeUp>
         ))}
       </div>
