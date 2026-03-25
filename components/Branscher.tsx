@@ -1,8 +1,8 @@
-const imgBygg = "https://www.figma.com/api/mcp/asset/092598ab-3973-4dd1-9520-bcbb1b70cd09";
-const imgIndustri = "https://www.figma.com/api/mcp/asset/10477aca-199d-47d9-ae82-9e8f0b7ede06";
-const imgVVS = "https://www.figma.com/api/mcp/asset/4afcd431-4261-4bba-8724-50c1dcdd664a";
-const imgFordon = "https://www.figma.com/api/mcp/asset/da84d5da-b28d-4977-a89e-7d04bd8ab800";
-const imgInfra = "https://www.figma.com/api/mcp/asset/3ec56db8-46b3-443d-858e-90a5e1daf314";
+const imgBygg = "/images/icon-bygg.jpg";
+const imgIndustri = "/images/icon-industri.jpg";
+const imgVVS = "/images/icon-vvs.jpg";
+const imgFordon = "/images/icon-fordon.jpg";
+const imgInfra = "/images/icon-infra.jpg";
 
 const branscher = [
   { label: "Bygg", icon: imgBygg },

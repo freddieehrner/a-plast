@@ -1,6 +1,6 @@
-const imgHallbarhet = "https://www.figma.com/api/mcp/asset/ca0f61c6-1c0e-4e61-89b5-fc3203c8a8f7";
-const imgRecycle = "https://www.figma.com/api/mcp/asset/5e88b3c3-a080-444e-bfec-ff0a98b7c26d";
-const imgKvalitet = "https://www.figma.com/api/mcp/asset/66dd4b2c-567d-43a0-9ba0-d6fa6f88dbec";
+const imgHallbarhet = "/images/icon-hallbarhet.jpg";
+const imgRecycle = "/images/icon-recycle.jpg";
+const imgKvalitet = "/images/icon-kvalitet.jpg";
 
 const kort = [
   {

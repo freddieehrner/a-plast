@@ -1,5 +1,5 @@
-const imgP1 = "https://www.figma.com/api/mcp/asset/ba3ea480-9a0f-40d1-b869-4b7684ba0f30";
-const imgP2 = "https://www.figma.com/api/mcp/asset/8d0283dd-4ef3-4d1c-853b-3a60c69a3f3f";
+const imgP1 = "/images/produkt-1.jpg";
+const imgP2 = "/images/produkt-2.jpg";
 
 const produkter = [
   { label: "Kabelskydd", desc: "Kabelbrunnar, elinstallation, kabelskyddsrör, elinstallationsrör" },

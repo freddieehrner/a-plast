@@ -1,6 +1,6 @@
-const imgCert = "https://www.figma.com/api/mcp/asset/d304397d-dc0e-413e-9add-0ab57738c33c";
-const imgPie = "https://www.figma.com/api/mcp/asset/ca0f61c6-1c0e-4e61-89b5-fc3203c8a8f7";
-const imgWorker = "https://www.figma.com/api/mcp/asset/e2f55ca7-63a0-48d3-83a4-19145367e116";
+const imgCert = "/images/chart-pie.jpg";
+const imgPie = "/images/chart-pie.jpg";
+const imgWorker = "/images/icon-worker.jpg";
 
 export default function Siffror() {
   return (

@@ -1,4 +1,4 @@
-const imgHero = "https://www.figma.com/api/mcp/asset/7a1c74ad-83df-49a4-9286-595d13bbab6c";
+const imgHero = "/images/hero-main.jpg";
 
 export default function Hero() {
   return (

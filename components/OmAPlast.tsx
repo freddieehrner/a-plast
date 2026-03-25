@@ -1,4 +1,4 @@
-const imgBg = "https://www.figma.com/api/mcp/asset/94cde52d-26b3-41c4-8f90-d53d3749cf82";
+const imgBg = "/images/hero-bg.jpg";
 
 const knappar = ["Om oss", "Hur vi jobbar", "Vår vision"];
 

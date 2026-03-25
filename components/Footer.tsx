@@ -1,6 +1,6 @@
-const imgFB = "https://www.figma.com/api/mcp/asset/5b63a1e7-20f4-48a8-87ad-0ca375634e9a";
-const imgLI = "https://www.figma.com/api/mcp/asset/2c1b0ade-399d-4fe4-955e-b8ad4181ff48";
-const imgYT = "https://www.figma.com/api/mcp/asset/b4c3c516-5c93-4a77-b479-ad629f9a04b7";
+const imgFB = "/images/social-fb.jpg";
+const imgLI = "/images/social-li.jpg";
+const imgYT = "/images/social-yt.jpg";
 
 const kolumner = [
   {

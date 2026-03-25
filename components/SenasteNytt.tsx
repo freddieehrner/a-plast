@@ -1,5 +1,5 @@
-const imgNews1 = "https://www.figma.com/api/mcp/asset/a030af25-650b-49cd-bea6-d4157c88c517";
-const imgNews2 = "https://www.figma.com/api/mcp/asset/28ead605-414a-44d6-b5be-b6d53c352618";
+const imgNews1 = "/images/news-1.jpg";
+const imgNews2 = "/images/news-2.jpg";
 
 const nyheter = [
   {
