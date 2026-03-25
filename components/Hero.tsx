@@ -3,7 +3,7 @@ export default function Hero() {
   return (
     <section>
       {/* ── Text row ── */}
-      <div className="bg-white px-10 md:px-[6.5vw] pt-16 pb-12 max-w-[1728px] mx-auto">
+      <div className="bg-[#b3ecff] px-10 md:px-[6.5vw] pt-16 pb-12 max-w-[1728px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           <h1
             className="hero-fade-1 text-[#0062ae] font-semibold leading-tight"
