@@ -21,7 +21,7 @@ export default function Footer() {
           <img src="/images/logo-footer.jpg" alt="A-Plast" style={{ height: 67, width: 'auto', marginBottom: '1.5rem' }} />
           <p
             className="text-white font-semibold leading-[1.4]"
-            style={{ fontFamily: 'Inter, sans-serif', fontSize: 20, maxWidth: 606, marginBottom: '2.5rem' }}
+            style={{ fontFamily: 'Inter, sans-serif', fontSize: 10, maxWidth: 606, marginBottom: '2.5rem' }}
           >
             Mer engagemang, mer precision och mer ansvar i varje samarbete.
             A-Plastgruppen är din partner för pålitliga lösningar som fungerar – hela vägen.
@@ -45,7 +45,7 @@ export default function Footer() {
                     <a
                       href="#"
                       className="text-white underline hover:text-[#b3ecff] transition-colors"
-                      style={{ fontFamily: 'Inter, sans-serif', fontSize: 18, lineHeight: '34px' }}
+                      style={{ fontFamily: 'Inter, sans-serif', fontSize: 9, lineHeight: '17px' }}
                     >
                       {link}
                     </a>
@@ -65,17 +65,17 @@ export default function Footer() {
               <div key={name}>
                 <p
                   className="text-white font-bold"
-                  style={{ fontFamily: 'Outfit, sans-serif', fontSize: 20, lineHeight: '27px' }}
+                  style={{ fontFamily: 'Outfit, sans-serif', fontSize: 10, lineHeight: '14px' }}
                 >
                   {name}
                 </p>
                 {address.split('\n').map((line) => (
-                  <p key={line} className="text-white" style={{ fontFamily: 'Outfit, sans-serif', fontSize: 20, lineHeight: '27px' }}>
+                  <p key={line} className="text-white" style={{ fontFamily: 'Outfit, sans-serif', fontSize: 10, lineHeight: '14px' }}>
                     {line}
                   </p>
                 ))}
                 {phone && (
-                  <p className="text-white" style={{ fontFamily: 'Outfit, sans-serif', fontSize: 20, lineHeight: '27px' }}>
+                  <p className="text-white" style={{ fontFamily: 'Outfit, sans-serif', fontSize: 10, lineHeight: '14px' }}>
                     {phone}
                   </p>
                 )}
@@ -83,7 +83,7 @@ export default function Footer() {
                   <a
                     href={`mailto:${email}`}
                     className="text-white underline hover:text-[#b3ecff] transition-colors"
-                    style={{ fontFamily: 'Outfit, sans-serif', fontSize: 20, lineHeight: '27px' }}
+                    style={{ fontFamily: 'Outfit, sans-serif', fontSize: 10, lineHeight: '14px' }}
                   >
                     {email}
                   </a>
