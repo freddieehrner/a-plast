@@ -51,21 +51,13 @@ export default function Produktutveckling() {
           </p>
         </FadeUp>
 
-        {/* Product images */}
-        <div className="flex gap-4 mb-10 overflow-x-auto pb-4">
-          {produkter.map(({ label, img }, i) => (
-            <FadeUp key={label} delay={i * 70}>
-              <div className="flex-shrink-0 w-[260px] h-[260px] rounded-full img-zoom">
-                <img src={img} alt={label} className="w-full h-full object-cover rounded-full" />
-              </div>
-            </FadeUp>
-          ))}
-        </div>
-
-        {/* Labels */}
+        {/* Product columns: image + text */}
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
-          {produkter.map(({ label, desc }, i) => (
-            <FadeUp key={label} delay={i * 60}>
+          {produkter.map(({ label, desc, img }, i) => (
+            <FadeUp key={label} delay={i * 70}>
+              <div className="img-zoom mb-4 aspect-square overflow-hidden">
+                <img src={img} alt={label} className="w-full h-full object-cover" />
+              </div>
               <p
                 className="text-[#99ffce] font-semibold leading-[1.4]"
                 style={{ fontFamily: 'Inter, sans-serif', fontSize: 25, marginBottom: '0.25rem' }}
