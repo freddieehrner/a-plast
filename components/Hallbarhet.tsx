@@ -6,21 +6,21 @@ const kort = [
     title: 'Hållbarhet',
     titleColor: '#3ab394',
     textColor: '#3ab394',
-    icon: '/images/icon-hallbarhet.jpg',
+    icon: '/images/icon-hallbarhet.svg',
   },
   {
     bg: '#b3ecff',
     title: 'Återvinning',
     titleColor: '#0062ae',
     textColor: '#000',
-    icon: '/images/icon-recycle.jpg',
+    icon: '/images/icon-recycle.svg',
   },
   {
     bg: '#3ab394',
     title: 'Kvalitet',
     titleColor: '#99ffce',
     textColor: '#e1fff0',
-    icon: '/images/icon-kvalitet.jpg',
+    icon: '/images/icon-kvalitet.svg',
   },
 ];
 

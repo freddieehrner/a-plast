@@ -49,7 +49,7 @@ export default function Siffror() {
               >
                 Omsättning 2024
               </p>
-              <img src="/images/chart-pie.jpg" alt="Omsättning" className="w-[110px] h-auto mb-2" />
+              <img src="/images/icon-chart.svg" alt="Omsättning" className="w-[105px] h-auto mb-2" />
               <p
                 className="text-[#0062ae] font-extrabold"
                 style={{ fontFamily: 'Inter, sans-serif', fontSize: 70, lineHeight: 1 }}
@@ -75,7 +75,7 @@ export default function Siffror() {
                 Strax över 100 anställda
               </p>
               <div className="flex items-center gap-3">
-                <img src="/images/icon-worker.jpg" alt="Anställda" className="w-[77px] h-auto" />
+                <img src="/images/icon-anstallda.svg" alt="Anställda" className="w-[77px] h-auto" />
                 <span
                   className="text-[#0062ae] font-extrabold"
                   style={{ fontFamily: 'Inter, sans-serif', fontSize: 70, lineHeight: 1 }}

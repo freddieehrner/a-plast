@@ -18,22 +18,20 @@ export default function Footer() {
       {/* Dark navy */}
       <div className="bg-[#03266c] py-16 px-10 md:px-[6.5vw]">
         <div className="max-w-[1728px] mx-auto">
-          <img src="/images/logo-footer.jpg" alt="A-Plast" style={{ height: 67, width: 'auto', marginBottom: '1.5rem' }} />
+          <img src="/images/logo-footer.svg" alt="A-Plast" style={{ height: 67, width: 'auto', marginBottom: '1.5rem' }} />
           <p
             className="text-white font-semibold leading-[1.4]"
-            style={{ fontFamily: 'Inter, sans-serif', fontSize: 10, maxWidth: 606, marginBottom: '2.5rem' }}
+            style={{ fontFamily: 'Inter, sans-serif', fontSize: 12.5, maxWidth: 606, marginBottom: '2.5rem' }}
           >
             Mer engagemang, mer precision och mer ansvar i varje samarbete.
             A-Plastgruppen är din partner för pålitliga lösningar som fungerar – hela vägen.
           </p>
 
           {/* Social */}
-          <div className="flex gap-4 mb-12">
-            {['/images/social-fb.jpg', '/images/social-li.jpg', '/images/social-yt.jpg'].map((icon, i) => (
-              <a key={i} href="#" className="w-12 h-12 flex items-center justify-center hover:opacity-75 transition-opacity">
-                <img src={icon} alt="" className="w-full h-full object-contain" />
-              </a>
-            ))}
+          <div className="mb-12">
+            <a href="#" className="inline-block hover:opacity-75 transition-opacity">
+              <img src="/images/social-icons.svg" alt="Sociala medier" style={{ height: 52, width: 'auto' }} />
+            </a>
           </div>
 
           {/* Nav columns */}
@@ -45,7 +43,7 @@ export default function Footer() {
                     <a
                       href="#"
                       className="text-white underline hover:text-[#b3ecff] transition-colors"
-                      style={{ fontFamily: 'Inter, sans-serif', fontSize: 9, lineHeight: '17px' }}
+                      style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, lineHeight: '21px' }}
                     >
                       {link}
                     </a>
@@ -65,17 +63,17 @@ export default function Footer() {
               <div key={name}>
                 <p
                   className="text-white font-bold"
-                  style={{ fontFamily: 'Outfit, sans-serif', fontSize: 10, lineHeight: '14px' }}
+                  style={{ fontFamily: 'Outfit, sans-serif', fontSize: 12.5, lineHeight: '17px' }}
                 >
                   {name}
                 </p>
                 {address.split('\n').map((line) => (
-                  <p key={line} className="text-white" style={{ fontFamily: 'Outfit, sans-serif', fontSize: 10, lineHeight: '14px' }}>
+                  <p key={line} className="text-white" style={{ fontFamily: 'Outfit, sans-serif', fontSize: 12.5, lineHeight: '17px' }}>
                     {line}
                   </p>
                 ))}
                 {phone && (
-                  <p className="text-white" style={{ fontFamily: 'Outfit, sans-serif', fontSize: 10, lineHeight: '14px' }}>
+                  <p className="text-white" style={{ fontFamily: 'Outfit, sans-serif', fontSize: 12.5, lineHeight: '17px' }}>
                     {phone}
                   </p>
                 )}
@@ -83,7 +81,7 @@ export default function Footer() {
                   <a
                     href={`mailto:${email}`}
                     className="text-white underline hover:text-[#b3ecff] transition-colors"
-                    style={{ fontFamily: 'Outfit, sans-serif', fontSize: 10, lineHeight: '14px' }}
+                    style={{ fontFamily: 'Outfit, sans-serif', fontSize: 12.5, lineHeight: '17px' }}
                   >
                     {email}
                   </a>
